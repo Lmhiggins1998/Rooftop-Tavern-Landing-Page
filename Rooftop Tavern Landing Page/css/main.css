@@ -1,0 +1,536 @@
+/* white #F1E9DA*/
+/* red  #e54b4b*/
+/* blue  #1b065e*/
+
+.py-5 {
+  padding: 50px;
+}
+
+.info {
+  background: #f1e9da;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Calligraffitti", cursive;
+  color: #f1e9da;
+  background: url(AtlantaSkylinesketch.jpg) center/ cover fixed no-repeat;
+}
+
+#Logo {
+  position: center;
+  display: inline-block;
+  height: 30px;
+  width: 40px;
+}
+
+.location {
+  font-family: Meriweather;
+}
+
+.cursive-font {
+  font-family: Calligraffitti;
+}
+
+.not-cursive-font {
+  font-family: Lato;
+}
+
+.primary-color {
+  color: #1b065e;
+}
+.secondary-color {
+  color: #e54b4b;
+}
+.address {
+  color: #1b065e;
+}
+.info h2 {
+  word-spacing: 0.6rem;
+}
+
+.info a {
+  transition: color 1s ease-in-out;
+}
+
+.info a:hover {
+  color: black;
+}
+
+/* HEADER */
+
+#header {
+  min-height: calc(100vh - 94px);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../css/Headerbackground.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.height-90 {
+  min-height: calc(100vh - 94px);
+}
+
+.banner h1 {
+  border-top: 6px groove #e54b4b;
+  border-bottom: 6px ridge #f1e9da;
+  padding: 11px;
+  animation: fromLeft;
+  animation-duration: 3.8s;
+  animation-delay: 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fromLeft {
+  0% {
+    transform: translatex(-100px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(150px);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes fromRight {
+  0% {
+    transform: translatex(100px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-150px);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes fromBottom {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.sushi-btn {
+  animation: fromRight;
+  animation-duration: 3.8s;
+  animation-delay: 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.main-btn {
+  font-family: Merriweather;
+  color: #f1e9da;
+  font-size: 2rem;
+  border: 2px solid #1b065e;
+  border-radius: 80px;
+  transition: all 0.5s ease-in-out;
+}
+
+.main-btn:hover {
+  color: #f1e9da;
+  border: 2px solid grey;
+  background: #1b065e;
+  border-radius: 80px;
+}
+
+.header-link {
+  display: inline-block;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  background: #f1e9da;
+  border-radius: 10px;
+  transition: all 2s ease-in;
+  animation: fromBottom;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.header-link:hover {
+  color: black;
+}
+
+/* .menu-item{
+
+    height: auto;
+    width: 100%;
+
+
+}
+
+.menu-btn{
+    color: #F1E9DA;
+    font-size: 2rem;
+    border: 2px solid #1b065e;
+    border-radius: 80px;
+    transition: all 0.5s ease-in-out;
+    animation: fromLeft;
+    animation-duration: 3.8s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+
+.menu-btn:hover{
+    color: #F1E9DA;
+    border: 2px solid grey;
+    background: #1b065e;
+    border-radius: 80px;
+}
+
+.name{
+    padding: 1rem;
+    color: #e54b4b;
+    font-size: 2rem;
+    border: 2px solid #F1E9DA;
+    border-radius: 80px;
+    margin: 6px;
+    background: transparent;
+}
+.name:hover{
+    color: #F1E9DA;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid grey;
+    background: #1b065e;
+    border-radius: 80px;
+} */
+
+.nav-header {
+  font-size: 2rem;
+}
+
+.nav-btn {
+  font-family: Merriweather;
+  color: #f1e9da;
+  font-size: 2rem;
+  border: 2px solid #1b065e;
+  border-radius: 80px;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar {
+  background: #f1e9da;
+  padding: 20px 20px;
+  transition: all 0.5s ease;
+}
+.navbar-background {
+  padding: 5px 20px;
+}
+.navbar-brand {
+  font-size: 30px;
+  transition: all 0.5s ease;
+}
+.navbar-brand:hover {
+  color: #242424;
+}
+
+.nav-link {
+  color: #242424;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  font-size: 23px;
+}
+
+.nav-link:hover {
+  color: #e54b4b;
+}
+
+.nav-btn {
+  background: transparent;
+  color: #e54b4b;
+  border: 2px solid #1b065e;
+  font-size: 23px;
+  transition: all 0.5s ease;
+}
+
+.nav-begin:hover {
+  color: #e54b4b;
+  background: #1b065e;
+  border: 2px solid grey;
+  transform: rotate(10deg);
+}
+
+.toggler-btn {
+  border: 2px solid #e54b4b;
+  padding: 5px;
+  transition: all 0.5s ease;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  background: #e54b4b;
+  transition: all 0.5s ease;
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.change .bar2 {
+  opacity: 0;
+}
+.change .bar3 {
+  transform: rotate(45deg) translate(-5px, -8px);
+}
+
+/* MENU ITEMS */
+.item-container {
+  position: relative;
+  /* FOR LINK */
+  overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0), rgb(0, 0, 0));
+  transition: all 0.5s ease;
+}
+
+.item-img {
+  transition: all 0.5s ease;
+}
+.item-container:hover .item-img {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+
+.item-link {
+  position: absolute;
+  padding: 1rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #e54b4b;
+  font-size: 2rem;
+  border-top: 3px groove #e54b4b;
+  border-bottom: 3px ridge #f1e9da;
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+.item-container:hover .item-link {
+  opacity: 1;
+}
+
+.item-link:hover {
+  padding: 1rem;
+  color: #1b065e;
+  border: 2px solid #1b065e;
+  background: #e54b4b;
+  color: #f1e9da;
+}
+
+.item-container:hover {
+  outline: 10px solid #e54b4b;
+  outline-offset: -1rem;
+}
+
+/* ABOUT US SECTION */
+#about {
+  background-color: #f1e9da;
+  color: #e54b4b;
+  font-family: Merriweather;
+}
+.about-pictures {
+  position: relative;
+}
+.about-image {
+  position: absolute;
+  width: 150px;
+  transition: all 1.3s ease;
+  opacity: 0.9;
+}
+
+.about-us {
+  text-align: center;
+}
+
+.img-1 {
+  left: 0%;
+  top: 0%;
+}
+.img-2 {
+  left: 0%;
+  top: 45%;
+  z-index: 10;
+}
+.img-3 {
+  left: 40%;
+  top: 45%;
+  z-index: 20;
+}
+.img-4 {
+  left: 40%;
+  top: 0%;
+  z-index: 20;
+}
+.img-5 {
+  left: 20%;
+  top: 20%;
+  z-index: 20;
+}
+
+.zoom:hover {
+  outline: 5px solid #e54b4b;
+  outline-offset: -1rem;
+  transform: scale(1.3) rotate(0deg);
+  opacity: 1;
+}
+
+.left:hover {
+  outline: 5px solid #e54b4b;
+  outline-offset: -1rem;
+  transform: scale(1.3) rotate(20deg);
+  opacity: 1;
+}
+
+.right:hover {
+  outline: 5px solid #e54b4b;
+  outline-offset: -1rem;
+  transform: scale(1.3) rotate(-20deg);
+  opacity: 1;
+}
+
+.about-pictures:hover .about-image:not(:hover) {
+  opacity: 0.5;
+}
+
+.learn-btn {
+  font-family: Merriweather;
+  color: #e54b4b;
+  font-size: 2rem;
+  border: 2px solid #1b065e;
+  border-radius: 80px;
+  transition: all 0.5s ease-in-out;
+}
+
+.learn-btn:hover {
+  color: #e54b4b;
+  border: 2px solid grey;
+  background: #1b065e;
+  border-radius: 80px;
+}
+
+/* REVIEW SECTION */
+
+.review-img {
+  width: 150px;
+}
+
+.carousel-header {
+  color: #e54b4b;
+  text-align: center;
+}
+
+.review-item {
+  align-content: center;
+  background: rgba(255, 255, 255, 0.7);
+  clip-path: polygon(5% 0, 100% 0, 93% 100%, 0 100%);
+}
+.image {
+  float: left;
+}
+.text-muted {
+  text-align: center;
+}
+
+.font2 {
+  font-family: Merriweather;
+  color: #e54b4b;
+}
+
+/* TEAM SECTION*/
+
+.team-icons a {
+  color: #3b5998;
+  transition: all 0.5s ease-in-out;
+}
+
+.team-icons a:hover {
+  color: #242424;
+  transform: translateY(-5px);
+}
+
+/* CONTACT SECTION*/
+.height-43 {
+  min-height: 43vh;
+}
+
+#contact .card {
+  background: rgba(229, 221, 203, 0.9);
+  transition: all 2s ease;
+}
+
+#contact .card:hover {
+  background: rgba(0, 0, 0, 0.67);
+}
+
+#contact .card-header {
+  color: #e54b4b;
+}
+
+#contact .input-group-text {
+  background: #e54b4b;
+  border-color: #e54b4b;
+  color: #242424;
+  opacity: 0.8;
+}
+
+#contact .card input {
+  color: #606060;
+}
+
+#contact .card input::placeholder {
+  color: whitesmoke;
+}
+
+.contact-btn {
+  color: #e54b4b;
+  border: 1px solid #f1e9da;
+  background: transparent;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact-btn:hover {
+  background: #f1e9da;
+  color: #e54b4b;
+  border-color: #f1e9da;
+}
+.contact-text {
+  background-color: rgba(88, 95, 102, 0.5);
+  border: 2px solid #e54b4b;
+  opacity: 0.8;
+  color: black;
+}
+
+.textbox {
+  color: black;
+}
+/* FOOTER SECTION */
+
+#back-to-top {
+  background: #f1e9da;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 70px;
+  right: 10px;
+}

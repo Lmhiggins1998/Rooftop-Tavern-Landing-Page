@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurant Project</title>
+    <!-- bootstrap css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main css -->
+        <link rel="stylesheet" href="css/main.css">
+    <!-- fontawesome js -->
+        <script src="js/all.js"></script>
+    <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Lato:100i&display=swap" rel="stylesheet">
+    <!-- magnific-popup -->
+        <link href="MagnificPopup/magnific-popup.css" rel="stylesheet">
+</head>
+<body>
+                            <!-- SOCIAL ICONS -->
+    <div class="container-fluid info p-3" id="top-icons">
+        <div class="row">
+            <div class="col d-flex justify-content-between align-items-baseline flex-wrap">
+                <div class="info-icons p-2">
+                    </a> 
+                    <a href="https://www.instagram.com" target="_blank" class="mr-2 primary-color">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>  
+                    <a href="https://twitter.com" target="_blank" class="mr-2 primary-color">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a> 
+                    <a href="https://www.youtube.com" target="_blank" class="mr-2 primary-color">
+                        <i class="fab fa-youtube fa-2x"></i>
+                    </a> 
+                </div>
+                <img id="Logo" src="css/LogoMakr_2S9S3A.png" alt="Logo">
+                <a href="https://www.google.com/maps/place/3929+Piedmont+Rd+NE,+Atlanta,+GA+30305/@33.8544712,
+                -84.3845482,17z/data=!3m1!4b1!4m5!3m4!1s0x88f50f6468f5c3d1:0xa022384395608ec2!8m2!3d33.8544712!4d-84.3823595" 
+                target="_blank" class="secondary-color location p-2 text-capitalize">3929 Piedmont Rd, Atlanta, GA 30305</a>
+            </div>
+        </div>
+    </div>
+                            <!-- END OF SOCIAL ICONS -->
+                            
+                            <!-- HEADER SECTION -->
+    <header id="header">
+    <header id="header-ripple">
+        <div class="container">
+            <div class="row height-90 align-items-center justify-content-center">
+                <div class="col">
+                    <div class="banner text-center">
+                        <h1 class="display-1 w-50 mx-auto">
+                            <small>Rooftop</small> <small class="secondary-color">Tavern</small>
+                        </h1>
+  
+                    <div class="banner text-center">
+                        <a href="Rooftop Tavern Menu.pdf" target="_blank" class="btn main-btn sushi-btn my-4 text-capitalize">Menu</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#menu" class="btn header-link primary-color"><i class="fas fa-arrow-down"></i></a>
+    </header>
+    </header>
+                            <!-- END OF HEADER SECTION -->
+
+                            <!-- NAVBAR SECTION -->
+            <nav class="navbar navbar-expand-lg">
+                <a href="#" class="navbar-brand  primary-color">Rooftop Tavern</a>
+                <button class="navbar-toggler"
+                type="button" data-toggle="collapse" data-target="#myNavbar">
+                    <div class="toggler-btn">
+                        <div class="bar bar1"></div>
+                        <div class="bar bar2"></div>
+                        <div class="bar bar3"></div>
+                    </div>
+                </button>
+
+                            <!-- LINKS -->
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a href="#menu" class="nav-link  primary-color">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link  primary-color">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#reviews" class="nav-link  primary-color">Reviews</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#team" class="nav-link  primary-color">Our team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link  primary-color">Contact us</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline d-none d-lg-block mr-5"></form>
+                            
+                        </form>
+                    </div>
+            </nav>                      
+                            <!-- END OF NAVBAR SECTION -->
+
+                            <!-- START OF MENU SECTION -->
+    <section class="py-5" id="menu">
+        <div class="container my-5">
+            <div class="nav-header">
+                    <p class="text-center"><strong>Click to view menu items</strong> <span><i class="fas fa-angle-down 2x"></i></span></p>
+            </div>
+                <div class="row" id="mag-popup">
+
+                    <!-- BEVERAGES -->
+                <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3 menu-item">
+                    <div class="item-container">
+                        <img src="css/Beverages.jpg" class="img-fluid img-thumbnail item-img" alt="Menu item">
+                        <a href="css/Beverages.jpg">
+                            <h1 class="text-lowercase text-center item-link px-3 name">beverages</h1>
+                        </a>
+                    </div>
+                </div>
+
+                    <!-- ENTREES -->
+                <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3 menu-item">
+                        <div class="item-container">
+                            <img src="css/Dinner.jpg" class="img-fluid img-thumbnail item-img" alt="Menu item">
+                            <a href="css/Dinner.jpg">
+                                <h1 class="text-lowercase text-center item-link px-3 name">Entrees</h1>
+                            </a>
+                        </div>
+                </div>
+
+                    <!-- LUNCH -->
+                <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3 menu-item">
+                        <div class="item-container">
+                            <img src="css/Lunch.jpg" class="img-fluid img-thumbnail item-img" alt="Menu item">
+                            <a href="css/Lunch.jpg">
+                                <h1 class="text-lowercase text-center item-link px-3 name">Lunch</h1>
+                            </a>
+                        </div>
+                </div>
+
+                    <!-- DINNER -->
+                <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3 menu-item">
+                        <div class="item-container">
+                            <img src="css/Entrees.jpg" class="img-fluid img-thumbnail item-img" alt="Menu item">
+                            <a href="css/Entrees.jpg">
+                                <h1 class="text-lowercase text-center item-link px-3 name">Dinner</h1>
+                            </a>
+                        </div>
+                </div>
+
+                    <!-- LATE NIGHT SNACK -->
+                <div class="col-10 mx-auto col-sm-6 col-lg-4 my-4 menu-item">
+                        <div class="item-container">
+                            <img src="css/LateNightSnack.jpg" class="img-fluid img-thumbnail item-img" alt="Menu item">
+                            <a href="css/LateNightSnack.jpg">
+                                <h1 class="text-lowercase text-center item-link px-3 name">Late Night Snack</h1>
+                            </a>
+                        </div>
+                </div>
+
+                    <!-- DESSERT -->
+                    <div class="col-10 mx-auto col-sm-6 col-lg-4 my-4 menu-item">
+                            <div class="item-container">
+                                <img src="css/Dessert.jpg" class="img-fluid img-thumbnail item-img" alt="Menu item">
+                                <a href="css/Dessert.jpg">
+                                    <h1 class="text-lowercase text-center item-link px-3 name">Dessert</h1>
+                                </a>
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+                            <!-- END OF MENU SECTION -->
+
+                            <!-- ABOUT US SECTION -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 my-4">
+                    <h3 class="cursive-font display-4 about-us">About Us</h3>
+                    <h4 class="text-muted about-us-font about-us">Rooftop Tavern has a well-earned reputation as Atlanta's most-celebrated 
+                        home restaurant since opening in 2016, and consistently gains ratings as one of Atlanta's top restaurants. Featuring 
+                        Atlanta cuisine Gurus and our Owners Marcus & Alexis Rivers, Rooftop Tavern's menu relies entirely on fresh-homegrown 
+                        ingredients. It's friendly environment serves as a comfort for any person stopping by for one of our delicious meals!
+                        Stop by and ask about our "first-timer" deal and our exclusive random deals that will make you want to eat all day long!</h4>
+                </div>
+                <div class="col-md-6 about-pictures my-4 d-none d-lg-block">
+                    <img src="css/Chef.jpg" alt="Chef" class="img-1 img-thumbnail about-image left">
+                    <img src="css/Manager.jpg" alt="Manager" class="img-2 img-thumbnail about-image left">
+                    <img src="css/Owners.jpg" alt="Owners" class="img-3 img-thumbnail about-image right">
+                    <img src="css/SMManager.jpg" alt="Social Media Manager" class="img-4 img-thumbnail about-image right">
+                    <img src="css/ABOUT_US cooking.jpg" alt="Cooking" class="img-5 img-thumbnail about-image zoom">
+                </div>
+            </div>
+        </div>
+    </section>
+                            <!-- END OF ABOUT US SECTION -->
+
+                            <!-- REVIEWS SECTION -->
+    <section id="reviews" class="py-5">
+        <div id="slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+
+                            <!-- CAROUSEL ITEM 1 -->
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="col-lg-10 mx-autod-flex-justify-content-between review-item py-3">
+                            
+                            <!-- REVIEW IMAGE -->
+                                    <div class="align-self-center ml-3 image">
+                                        <img src="css/Customer1.jpg" alt="" class="rounded-circle review-img">
+                                    </div>
+
+                            <!-- REVIEW TEXT -->
+                                    <div class="review-text px-5">
+                                        <h3 class="cursive-font mb-3 carousel-header">Mark Williams, Alpharetta, GA - 5 &#9733</h3>
+                                        <p class="lead text-muted not-cursive-font">Rooftop Tavern has the best shrimp alfredo I have ever had! 
+                                            It is a 100% must have if you are in Atlanta!</p>      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <!-- END OF CAROUSEL ITEM 1 -->
+
+                            <!-- CAROUSEL ITEM 2-->
+                <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="col-lg-10 mx-autod-flex-justify-content-between review-item py-3">
+                            
+                            <!-- REVIEW IMAGE -->
+                                        <div class="align-self-center ml-3 image">
+                                            <img src="css/Customer2.jpg" alt="" class="rounded-circle review-img">
+                                        </div>
+
+                            <!-- REVIEW TEXT -->
+                                        <div class="review-text px-5">
+                                            <h3 class="cursive-font mb-3 carousel-header">Elizabeth Wallace, Atlanta, GA - 4 &#9733</h3>
+                                            <p class="lead text-muted not-cursive-font">This is my first time at Rooftop Tavern and I Was
+                                                told to try the limited time mesquite roasted chicken rings and I can honestly 
+                                                say that they are so delicious! This is my first time and wont be my last..
+                                            </p>      
+                                        </div>   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            <!-- END OF CAROUSEL ITEM 2 -->
+
+                            <!-- CAROUSEL ITEM 3-->
+                <div class="carousel-item ">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="col-lg-10 mx-autod-flex-justify-content-between review-item py-3">
+                            
+                            <!-- REVIEW IMAGE -->
+                                        <div class="align-self-center ml-3 image">
+                                            <img src="css/Customer3.jpg" alt="" class="rounded-circle review-img">
+                                        </div>
+
+                            <!-- REVIEW TEXT -->
+                                        <div class="review-text px-5">
+                                            <h3 class="cursive-font mb-3 carousel-header">Katy Hillman, Hiram, GA - 5 &#9733</h3>
+                                            <p class="lead text-muted not-cursive-font">Rooftop Tavern is my go-to birthday celebration dinner restaurant every yeat
+                                                and it is this place for a reason! Any thing you get on the menu is fabulous!
+                                                Try the strawberry sundae!!!
+                                            
+                                            </p>      
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            <!-- END OF CAROUSEL ITEM 3 -->
+
+                            <!-- CAROUSEL CONTROLS -->
+            <a href="#slider" class="carousel-control-prev" role="button" data-slde="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#slider" class="carousel-control-next" role="button" data-slde="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+        </div>
+    </div>
+    </section>
+                            <!-- END OF REVIEWS SECTION -->
+
+                            <!-- START OF TEAM SECTION -->
+            <section id="team" class="py-5">
+                <div class="container">
+                    <div class="row">
+
+                        <!-- TEAM MEMBER 1 -->
+                        <div class="col-9 col-sm-4 col-lg-4 mx-auto my-4">
+                            <div class="card">
+                                <img src="css/Owners.jpg" alt="Owners" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h1 class="text-capitalize primary-color">Owners</h1>
+                                    </div>
+                                    <h4 class="primary-color text-capitalize font2">Marcus & Alexis Rivers</h4>
+                                </div>
+                                <div class="card-footer team-icons d-flex-justify-content-between">
+                                    <a style="padding-left: 25px;" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                                    <a style="padding-left: 25px;" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                                    <a style="padding-left: 25px;" href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                                    <a style="padding-left: 25px;" href="https://www.google.com" target="_blank"><i class="fab fa-google fa-2x"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TEAM MEMBER 2 -->
+                        <div class="col-9 col-sm-4 col-lg-4 mx-auto my-4">
+                                <div class="card">
+                                    <img src="css/Chef.jpg" alt="Owners" class="card-img-top">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h1 class="text-capitalize primary-color">Chef</h1>
+                                        </div>
+                                        <h4 class="primary-color text-capitalize font2">Abel Rivera-Rosa</h4>
+                                    </div>
+                                    <div class="card-footer team-icons d-flex-justify-content-between">
+                                        <a style="padding-left: 25px;" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                                        <a style="padding-left: 25px;" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a style="padding-left: 25px;" href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                                        <a style="padding-left: 25px;" href="https://www.google.com" target="_blank"><i class="fab fa-google fa-2x"></i></a>
+                                    </div>
+                                </div>
+                        </div>
+
+                        <!-- TEAM MEMBER 3 -->
+                        <div class="col-9 col-sm-4 col-lg-4 mx-auto my-4">
+                                <div class="card">
+                                    <img src="css/SMManager.jpg" alt="Owners" class="card-img-top">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h1 class="text-capitalize primary-color ">Media Manager</h1>
+                                        </div>
+                                        <h4 class="primary-color text-capitalize font2">Travis Horn</h4>
+                                    </div>
+                                    <div class="card-footer team-icons d-flex-justify-content-between">
+                                        <a style="padding-left: 25px;" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                                        <a style="padding-left: 25px;" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a style="padding-left: 25px;" href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                                        <a style="padding-left: 25px;" href="https://www.google.com" target="_blank"><i class="fab fa-google fa-2x"></i></a>
+                                    </div>
+                                </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+                            <!-- END OF TEAM SECTION -->
+                            <!-- CONTACT SECTION -->
+            <section id="contact">
+                <div class="container-fluid no-padding">
+                    <div class="row">
+                        <div class="col-md-6 my-3">
+                            <div class="embed-responsive embed-responsive-21by9 height-43">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.3654620326483!2d-84.38454818479018!3d33.85447118066009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50f6468f5c3d1%3A0xa022384395608ec2!2s3929+Piedmont+Rd+NE%2C+Atlanta%2C+GA+30305!5e0!3m2!1sen!2sus!4v1561835989556!5m2!1sen!2sus" width="100%" frameborder="0" style="border:0" allowfullscreen>></iframe>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-3 align-self-center">
+                            <div class="card text-center">
+                                <div class="card-header ">
+                                    <h1 class="cursive-font "><strong>Join Us for Updates</strong></h1> 
+                                </div>
+                                <div class="card-body">
+                                    <form>
+                                        <!-- INPUT GROUP -->
+                                        <!-- ENTER NAME -->
+                                        <div class="input-group my-3 not-cursive-font">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text " id="Input-text">
+                                                    <i class="fas fa-user"></i>
+                                                </span>
+                                            </div>
+
+                                            <input type="text" id="text" class="form-control form-control-lg contact-text" placeholder="Enter your name here:">
+                                        </div>
+                                        <!-- ENTER PHONE NUMBER -->
+                                        <div class="input-group my-3 not-cursive-font">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="Input-phone">
+                                                        <i class="fas fa-phone"></i>
+                                                    </span>
+                                                </div>
+
+                                                <input type="text" id="phone" class="form-control form-control-lg contact-text" placeholder="Enter your phone number:">
+                                        </div>
+                                        <!-- ENTER EMAIL -->
+                                        <div class="input-group my-3 not-cursive-font">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="Input-email">
+                                                        <i class="fas fa-envelope"></i>
+                                                    </span>
+                                                </div>
+
+                                                <input type="text" id="email" class="form-control form-control-lg contact-text textbox" placeholder="Enter your email address here:">
+                                        </div>
+                                        <button type="submit" class="btn-block btn-lg text-uppercase contact-btn" >
+                                            <i class="far fa-hand-point-right mr-2"></i>Click Here
+                                        </button>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                            <!-- END OF CONTACT SECTION -->
+
+                            <!-- FOOTER SECTION -->
+                            <div class="container-fluid info p-3">
+                                    <div class="row">
+                                        <div class="col d-flex justify-content-between align-items-baseline flex-wrap">
+                                            <div class="info-icons p-2">
+                                                </a> 
+                                                <a href="https://www.instagram.com" target="_blank" class="mr-2 primary-color">
+                                                    <i class="fab fa-instagram fa-2x"></i>
+                                                </a>  
+                                                <a href="https://www.twitter.com" target="_blank" class="mr-2 primary-color">
+                                                    <i class="fab fa-twitter fa-2x"></i>
+                                                </a> 
+                                                <a href="https://www.facebook.com" target="_blank" class="mr-2 primary-color">
+                                                    <i class="fab fa-youtube fa-2x"></i>
+                                                </a> 
+                                            </div>
+                                            <img id="Logo" src="css/LogoMakr_2S9S3A.png" alt="Logo">
+                                            <h5 class="secondary-color location p-2"> <small> Rooftop Tavern&copy; 2019</small></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- END OF FOOTER SECTION -->
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- boostrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- smooth scroll js -->
+    <script src="js/jquery.smooth-scroll.js"></script>
+    <!-- ripples -->
+    <script src="js/jquery.ripples-min.js"></script>
+    <!-- js -->
+    <script src="js/script.js"></script>
+    <!-- magnific-popup-->
+    <script src="MagnificPopup/jquery.magnific-popup.js"></script>
+</body>
+</html>
